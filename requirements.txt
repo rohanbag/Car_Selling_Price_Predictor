@@ -16,4 +16,3 @@ virtualenv==20.8.0
 djangorestframework==3.12.4
 heroku3
 django_heroku
-python==3.8.12
