@@ -42,7 +42,7 @@ def home(request):
 
 			df = df.append(df2, ignore_index=True)
 
-			path_of_file = "C:/Users/ursha/Documents/Data Science Mega Projects/1) Car Selling Price Prediction/carsell/carprice/carpricepr/PredictCarPrice.pickel"
+			path_of_file = "PredictCarPrice.pickel"
 			rf_model_load = pickle.load(open(path_of_file,'rb'))
 
 			pred_price = rf_model_load.predict(df)
